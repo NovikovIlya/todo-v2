@@ -147,7 +147,7 @@ function checkEmptyList(){
         const emptyListEl = document.querySelector('#emptyList');
 
         // Найден ли "Список дел пуст" ? - Да(удаляем) : Нет (возвращаем null)
-        emptyListEl ? emptyListEl.remove : null;
+        emptyListEl ? emptyListEl.remove() : null;
     }
 }
 
